@@ -9,7 +9,8 @@ Which attacks are most popular currently? This does a tally on the non-zero-occu
 
 example usage: 
 ```bash
-# ./sigtallyjd.sh 200007000 200008000 # will scan current log for 1000 signatures
+sigtallyjd.sh 200007000 200008000
+# will scan current log for 1000 signatures between 200007000 and 200008000
 ```
 example output:
 ``` bash
@@ -30,7 +31,8 @@ When did this block begin to occur, or has it always been around? this delivers 
 
 example usage: 
 ```bash
-# ./trendfinderjd.sh 200007011 # will scan ALL logs for history of specific violation
+trendfinderjd.sh 200007011 
+# will scan ALL logs for history of specific violation 200007011
 ```
 example output:
 ```bash
