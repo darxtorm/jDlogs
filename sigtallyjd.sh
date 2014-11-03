@@ -28,4 +28,4 @@ while [ $SIGID -lt $HIGHSIG ]; do
         fi
         let SIGID=SIGID+1
 done
-sort -r -n -k 2 /var/log/cisco/jDtally.log > /var/log/cisco/jDtally.sort.log # pumps out a sorted log but only if above has completed rather than cancelled
+sort -r -n -k 2 jDtally.log > jDtally.sort.log # pumps out a sorted log but only if above has completed rather than cancelled
